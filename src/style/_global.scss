@@ -1,0 +1,13 @@
+@use "colors";
+
+body {
+  background-color: colors.$light-gray;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
